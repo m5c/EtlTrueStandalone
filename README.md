@@ -18,8 +18,8 @@ I therefore parted from the standalone examples of [Hyacinths fork](https://gith
  * Decluttered original repo (```git://git.eclipse.org/gitroot/epsilon/org.eclipse.epsilon.git```) from everything you are not interested in.
    * Removed non-standalone sibling projects
    * Removed non-ETL examples
-   * Removed irrelevant / unused etl / metamodes / xmi files.
-   * Removed eclipse / htmli / bloat / meta files
+   * Removed irrelevant / unused etl / meta-models / xmi files.
+   * Removed eclipse / html / bloat / meta files
    * Added util class to correctly resolve metamodel / etl-rule as java resources
  * Cleaned up and added many comments to exlain what the code actually does.
  * Fixed maven configuration
@@ -50,7 +50,7 @@ This is a true standalone project. You do not need an IDE to run this, especiall
 
 ### Clone instructions
 
-```git clone https://github.com/kartoffelquadrat/EtTrueStandalone.git```
+```git clone https://github.com/kartoffelquadrat/EtlTrueStandalone.git```
 
 ### Run instructions
 
@@ -65,7 +65,7 @@ You can either directly run the code, or first build a self-contained jar.
   ```
 
  * Then run the demo:  
-```clean package exec:java```  
+```mvn clean package exec:java```  
 
 #### Launch from JAR
 
