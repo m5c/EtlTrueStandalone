@@ -75,7 +75,6 @@ public class Launcher {
         try {
             File file = new File(location);
             file.createNewFile();
-            System.out.println("Empty File Created:- " + file.length());
         } catch (IOException e) {
             throw new RuntimeException("Unable to create file at specified target location.");
         }

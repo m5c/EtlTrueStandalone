@@ -53,7 +53,6 @@ public class ResourceUtils {
             // append relative file location, create corresponding URI
             String jarInternalFileUriString = resourcesUriString + relativeResourceLocation;
             URI jarInternalFileUri = new URI(jarInternalFileUriString);
-            System.out.println(jarInternalFileUri);
             return jarInternalFileUri;
         }
     }
