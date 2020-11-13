@@ -4,7 +4,7 @@
 
 ## About
 
-The Epsilon Transformation Language is an eclipse extension for model transformations. Despite many code snippets available on line, it is hard to find a standalone demo that is:
+The Epsilon Transformation Language is an eclipse extension for model transformations. Despite many code snippets available online, it is hard to find a standalone demo that is:
  * well documented
  * minimal
  * working
@@ -73,7 +73,7 @@ You can either directly run the code, or first build a self-contained jar.
   ```mvn clean package```
 
  * Run the self-contained jar with:  
-  ```java -jar target/EtlPlayground.jar /Users/schieder/Code/EtlStandaloneExample/Tree.xmi /Users/schieder/Desktop/Copy.xmi```
+  ```java -jar target/EtlPlayground.jar /Users/schieder/Code/EtlTrueStandalone/Tree.xmi /Users/schieder/Desktop/Copy.xmi```
 
 
  > Again, don't forget to update the runtime arguments.
