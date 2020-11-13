@@ -13,7 +13,7 @@ I therefore parted from the standalone examples of [Hyacinths fork](https://gith
 ### Changelog
 
  * Added this markdown file, as a place to start.
- * Decluttered original repo (```git://git.eclipse.org/gitroot/epsilon/org.eclipse.epsilon.git```) from everything you are not interested in.
+ * Decluttered [original repo](git://git.eclipse.org/gitroot/epsilon/org.eclipse.epsilon.git) from everything, not of particular interest for a minimal ETL demo.
    * Removed non-standalone sibling projects
    * Removed non-ETL examples
    * Removed irrelevant / unused etl / meta-models / xmi files.
