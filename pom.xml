@@ -84,7 +84,7 @@
                     <mainClass>eu.kartoffelquadrat.etlplayground.Launcher</mainClass>
                     <arguments>
                         <!-- UPDATE THESE PATHS!-->
-                        <argument>/Users/schieder/Code/EtlStandaloneExample/Tree.xmi</argument>
+                        <argument>/Users/schieder/Code/EtlTrueStandalone/Tree.xmi</argument>
                         <argument>/Users/schieder/Desktop/Copy.xmi</argument>
                     </arguments>
                 </configuration>
