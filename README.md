@@ -1,7 +1,5 @@
 # Epsilon Transformation Language Demo
 
-*The true standalone ETL demo you were looking for.*
-
 ## About
 
 The Epsilon Transformation Language is an eclipse extension for model transformations. Despite many code snippets available online, it is hard to find a standalone demo that is:
