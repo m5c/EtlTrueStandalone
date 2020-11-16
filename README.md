@@ -81,5 +81,5 @@ You can either directly run the code, or first build a self-contained jar.
  * Modifications: Maximilian Schiedermeier ![email](email.png)
  * Github: Kartoffelquadrat
  * Webpage: https://www.cs.mcgill.ca/~mschie3
- * [Original license](EPL-2.0.html)
+ * [Original license](EPL-2.0.html), usage of official ETL-demo code snippets [approved by authors](https://www.eclipse.org/forums/index.php?t=msg&th=1105907&goto=1834631&#msg_1834631).
 
