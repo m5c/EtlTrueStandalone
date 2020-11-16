@@ -1,8 +1,8 @@
 rule Tree2Tree
-	transform s : Source!Tree
-	to t : Target!Tree {
+	transform s : Source!Tree       // "Source" is the name associated to the input model (TreeTransformer:convertToEmfModel). "Tree" is the name of the root-eClassifiers element in the associated ecore meta-model (Tree.ecore).
+	to t : Target!Tree {            // "Target" is the name associated to the input model (TreeTransformer:convertToEmfModel). "Tree" is the name of the root-eClassifiers element in the associated ecore meta-model (Tree.ecore).
 
-	t.label := 'CopyOf' + s.label;
-	t.children ::= s.children;
+	t.label := 'CopyOf' + s.label;  // modifies the label node label of every node of the target model.
+	t.children ::= s.children;      // "::=" is an auto-reference resolver of the expression on the right side to the equivalent of the target model.
 	
 }
