@@ -37,7 +37,7 @@ public class Launcher {
     }
 
     /**
-     * Verifies the URIs of the input / output model. Input model must exists. Output model must not yet exist.
+     * Verifies the URIs of the input / output model. Input model must exists. Output model is overwritten if it already exists.
      *
      * @param args
      */
@@ -47,11 +47,21 @@ public class Launcher {
                     "of input model (xmi). Two: Location where output model shall be stored.");
 
         if (!isExistentFile(args[0]))
-            throw new RuntimeException("Provided location of input model (" + args[0] + ") is not ok.");
+            throw new RuntimeException("Input model (" + args[0] + ") not found.");
 
         if (isExistentFile(args[1]))
-            throw new RuntimeException("Provided location of output model (" + args[1] + ") is not ok. Possibly " +
-                    "because file already exists.");
+            eraseTargetFile(args[1]);
+    }
+
+    /**
+     * Erases the target model in case it already exists at the specified target location.
+     * @param location
+     */
+    private static void eraseTargetFile(String location)
+    {
+        File previousTargetFile = new File(location);
+        previousTargetFile.delete();
+        System.out.println("[Pre-existent target model erased]");
     }
 
     /**
