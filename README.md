@@ -18,7 +18,10 @@ I therefore parted from the standalone examples of [Hyacinths fork](https://gith
    * Removed non-ETL examples
    * Removed irrelevant / unused etl / meta-models / xmi files.
    * Removed eclipse / html / bloat / meta files
- * Added util class to correctly resolve metamodel / etl-rule as java resources
+ * Added code
+   * Launcher class for enhanced separation of concerns
+   * Util class to correctly resolve metamodel / etl-rule as java resources
+   * Util class to detect if code is executed from JAR or natively
  * Cleaned up and added many comments to exlain what the code actually does.
  * Fixed maven configuration
    * Refactored project structure, so it complies to maven conventions
